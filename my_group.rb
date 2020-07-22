@@ -1,9 +1,7 @@
-my_group = Array.new
+i = 1
+films = {"Basic instinct": 1997, "Rambo": 2004, "terminator": 2014, "Love is blind":2020, "White men cant jump":1996}
 
-person1 = {name: "Thomas", age: 44, weight: "male"}
-person2 = {name: "Sara", age: 39, weight: "female"}
-person3 = {name: "James", age: 22, weight: "male"}
-
-my_group.push(person1)
-my_group.push(person2)
-my_group.push(person3)
+films.each_value do |key,value|
+    
+    puts " #{key} "
+end
