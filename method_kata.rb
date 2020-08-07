@@ -5,4 +5,4 @@ def greetings (name)
     return greeting
 end
 
-greetings ("hello")
+greetings ()
