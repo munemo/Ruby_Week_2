@@ -1,13 +1,13 @@
-#This code is a hash
 family = {
- uncles: ["bob","joe","steve"],
-
- sisters: ["jane","jill","beth"],
- brothers: ["frank","rob","david"],
- aunts:["mary","sally","susan"]
+	uncles: ["joe", "jim", "john"],
+	sisters: ["mary", "jane", "watson"],
+	brothers: ["frank", "rob", "david"],
+	aunts: ["maud", "sally", "jean"]
 }
 
-immediate_family = family.select { |k|k== :brothers && k == :sisters }
+immediate_family = family.select  do |k|
+	k== :sisters || k == :brothers
+end
 
 array = immediate_family.values.flatten
 puts  array

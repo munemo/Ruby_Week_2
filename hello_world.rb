@@ -7,4 +7,4 @@ def  caps(string)
   end 
   
   puts  caps("Hi world")
-  puts  caps("Hello world")
+  puts  caps("Heya United!")

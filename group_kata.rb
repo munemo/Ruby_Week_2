@@ -10,3 +10,4 @@ end
 #The code creates two separate hashes person_1 and person_2
 #Then an array called group containing the two hashes is created
 #Finally, the "each" method iterates through the array and "puts" the name,age and gender values
+
